@@ -3,14 +3,13 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Dorang landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Dorang | Free Bootstrap 4.3.x template</title>
+    <title>LEAD event website</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 
-    <!-- Bootstrap + Dorang main styles -->
-	<link rel="stylesheet" href="assets/css/dorang.css">
+
+	<link rel="stylesheet" href="assets/css/index.css">
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
@@ -19,9 +18,9 @@
     <nav class="page-navbar" data-spy="affix" data-offset-top="10">
         <ul class="nav-navbar container">
             <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            <li class="nav-item"><a href="#headerend" class="nav-link">Events</a></li>
+            <li class="nav-item"><a href="#eventend" class="nav-link">Sponsors</a></li>
+            <li class="nav-item"><a href="#contactstart" class="nav-link">Contact Us</a></li>
         </ul>
     </nav><!-- end of page navbar -->
 
@@ -29,38 +28,45 @@
     <header class="header">
         <div class="overlay"></div>
         <div class="header-content">
-            <h1 class="header-title">Event Title</h1>
-            <p class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt.</p>
+            <h1 class="header-title">SHOONYA 4.0</h1>
+            <p class="header-subtitle">Event Date - 3rd-5th Feb</p>
             <div class="countdown-container">
-                <table class="table-countdown" >
-                    <tr style="height: 60px; font-size: 50px;"">
-                        <td id="days">00</td>
-                        <td class="text-countdown">Days</td>
-                        <td id="hours">00</td>
-                        <td class="text-countdown">Hours</td>
-                        <td id="min">00</td>
-                        <td class="text-countdown">Min</td>
-                        <td id="sec">00</td>
-                        <td class="text-countdown">Sec</td>
-                    </tr>
-                </table>
+                <table class="t_c">
+                    <thead>
+                      <tr>
+                        <th scope="col">Days</th>
+                        <th scope="col">Hours</th>
+                        <th scope="col">Min</th>
+                        <th scope="col">Sec</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td data-label="Days" id="days">00</td>
+                        <td data-label="Hours" id="hours">00</td>
+                        <td data-label="Min" id="min">00</td>
+                        <td data-label="Sec" id="sec">00</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
             </div>
-
-            <button class="btn btn-theme-color modal-toggle" onclick = "window.location.href='https://fonts.google.com/specimen/Rubik+Bubbles';"> Register Here</button>
-
+           <!-- <div class="button-register">
+                <button class="btn btn-theme-color modal-toggle" onclick = "window.location.href='https://fonts.google.com/specimen/Rubik+Bubbles';"> Register Here</button>
+            </div>-->
         </div>
     </header><!-- end of page header -->
 
+    <div id="headerend"></div>
 
+    <br>
+    <br>
     <!-- page container -->
     <div class="container page-container">
         <div class="col-md-10 col-lg-8 m-auto">
             <h6 class="title mb-4">Events </h6>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+            <p class="mb-5">To enhance one's skills and make learning more amusing and competitive, LEAD organizes a 3-day long ,its flagship event SHOONYA 4.0 comprising 3 mind bening exhillartaing events. 
+                  Our flagship event tests critical thinking skills, enrich the competitive nature and boosts the teamwork spirit of the participants</p>
         </div>  
 
         <!-- row -->
@@ -70,10 +76,16 @@
                     <img src="assets/imgs/img-1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
                     <div class="overlay"></div> 
                     <div class="des">
-                        <h1 class="title">Event 1</h1>
-                        <h6 class="subtitle">magna aliqua</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h1 class="title">CODEBIZ</h1>
+                        <h6 class="subtitle">3rd February</p>
+                        <p>CODEBIZ, an online coding contest, will test participants' ability to solve complex problems most efficiently and creatively.
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='#';"> RULEBOOK</button>
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='#';"> Register Here</button>
+                        </p>
                     </div>          
                 </a>
             </div>
@@ -82,10 +94,17 @@
                     <img src="assets/imgs/img-2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
                     <div class="overlay"></div> 
                     <div class="des">
-                        <h1 class="title">Event 2</h1>
-                        <h6 class="subtitle">nulla pariatur</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h1 class="title">QUIKSTER</h1>
+                        <h6 class="subtitle">4th February</p>
+                        <p>QUIKSTER is a quizzing contest challenging participants' knowledge from diverse fields in time-based buzzer rounds. 
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='www.google.com';"> RULEBOOK</button>
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='#';"> Register Here</button>
+                    </p>
+
                     </div>          
                 </a>
             </div>
@@ -94,16 +113,23 @@
                     <img src="assets/imgs/img-3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
                     <div class="overlay"></div> 
                     <div class="des">
-                        <h1 class="title">Event 3</h1>
-                        <h6 class="subtitle">magna aliqua</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h1 class="title">4 Block 8</h1>
+                        <h6 class="subtitle">5th February</p>
+                        <p>The final event, 4 BLOCK 8, an exhilarating game of enhanced monopoly, will force the teams to use their wits and place their every move strategically.
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='#';"> RULEBOOK</button>
+                        <br>
+                        <br>
+                        <button class="button1" onclick = "window.location.href='#';"> Register Here</button>
+                    </p>
                     </div>          
                 </a>
             </div>          
         </div><!-- end of row -->
 
-        <a href="#">Load More <i class="ti-angle-double-right angle"></i></a>
+        <div id="eventend">
+        </div>
 
 
         <div class="col-md-10 col-lg-8 m-auto">
@@ -114,33 +140,22 @@
         <div class="row mb-5">
             <div class="col-md-6">
                 <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/blog-1.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
-                    <div class="card-body">
-                        <h6 class="card-subtitle">30 June, 2018</h6>
-                        <h3 class="card-title">Eiusmod
-                        tempor</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>                  
+                    <img src="assets/imgs/blog-1.jpg" class="card-img" >              
                 </a>
             </div>  
             <div class="col-md-6">
                 <a href="javascript:void(0)" class="card">
-                    <img src="assets/imgs/blog-2.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
-                    <div class="card-body">
-                        <h6 class="card-subtitle">29 June, 2018</h6>
-                        <h3 class="card-title">Ut minim veniam</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>                  
+                    <img src="assets/imgs/blog-2.jpg" class="card-img" >         
                 </a>
             </div>  
         </div><!-- end of row -->
 
-        <a href="#">All Posts <i class="ti-angle-double-right angle"></i></a>
+        
 
     </div> <!-- end of page container -->
-
+    <div id="contactstart"></div>
+    <br>
+    <br>
     <!--footer & pre footer -->
     <div class="contact-section">
         <div class="overlay"></div>
@@ -148,16 +163,20 @@
         <div class="container">
             <div class="col-md-10 col-lg-8 m-auto">
                 <h6 class="title mb-2">Contact Us</h6>
-            </div>
-
-            <!-- footer -->
-            <footer class="footer">
-                <div class="links">
-                    <a href="#">About</a>
-                    <a href="#">Explore</a>
-                    <a href="#">Journal</a>
+                <p class="mb-5">Feel Free To Contact Us on:</p>
+                <div class="form-group">
+                    <a href="https://leadthapar.com/#/" class="fa fa-globe"></a>
+                    <a href="https://www.instagram.com/lead_tiet/?hl=en" class="fa fa-instagram"> </a>
+                    <a href="https://in.linkedin.com/company/lead-tiet" class="fa fa-linkedin"> </a>
+                    
                 </div>
-            </footer><!-- end of footer -->
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
 
         </div><!-- end of container -->
     </div><!-- end of pre footer -->
