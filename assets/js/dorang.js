@@ -85,3 +85,12 @@ document.getElementById("hours").innerHTML = hours;
 document.getElementById("min").innerHTML = min;
 document.getElementById("sec").innerHTML = sec;
 }, 1000)
+
+var modal = document.getElementById('id01');
+
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+
