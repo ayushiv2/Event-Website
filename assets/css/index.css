@@ -2296,19 +2296,25 @@ pre code {
 .fa-instagram {  
   color: white; 
   padding-left: 30px;
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
 .fa-linkedin{
   color: white;
-  padding-right: 100px;
+  padding-right: 50px;
   padding-left: 30px;
 }
 
 .fa-globe{
   color: white;
   padding-left: 30px;
-  padding-right: 100px;
+  padding-right: 50px;
+}
+
+.fa-youtube {  
+  color: white; 
+  padding-left: 30px;
+  padding-right: 50px;
 }
 
 .form-control {
@@ -11859,7 +11865,7 @@ input[type=text],
 		overflow-y :scroll;
 		background-color: rgb(0, 0, 0);
 		background-color: rgba(0, 0, 0, 0.4);
-		padding-top: 60px;
+		padding-top: 10px;
     cursor: pointer;
 	}
 	.modal1::-webkit-scrollbar{
