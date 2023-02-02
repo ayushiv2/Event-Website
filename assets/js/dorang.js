@@ -1,17 +1,3 @@
-/*!
-=========================================================
-* Dorang Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
  // toggle 
 $(document).ready(function(){
     
@@ -63,7 +49,7 @@ $(document).ready(function(){
 
 //countdown
 
-var final = new Date("feb 3, 2023 10:00:00").getTime();
+var final = new Date("feb 6, 2023 17:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -88,9 +74,25 @@ document.getElementById("sec").innerHTML = sec;
 
 var modal = document.getElementById('id01');
 
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
+window.onclick = function(event) {
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+
+var modal1 = document.getElementById('id02');
+
+window.onclick = function(event) {
+	if (event.target == modal1) {
+		modal1.style.display = "none";
+	}
+}
+
+var modal2 = document.getElementById('id03');
+
+window.onclick = function(event) {
+	if (event.target == modal2) {
+		modal2.style.display = "none";
+	}
+}
 
